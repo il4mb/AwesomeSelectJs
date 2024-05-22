@@ -1,0 +1,32 @@
+{
+  "name": "awesomeselectjs",
+  "version": "1.0.0",
+  "description": "AwesomeSelectJs is a small library to allow customizing select option menu in browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/il4mb/AwesomeSelectJs.git"
+  },
+  "keywords": [
+    "custom-select"
+  ],
+  "author": "il4mb",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/il4mb/AwesomeSelectJs/issues"
+  },
+  "homepage": "https://github.com/il4mb/AwesomeSelectJs#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^7.1.1",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.77.2",
+    "sass-loader": "^14.2.1"
+  }
+}
